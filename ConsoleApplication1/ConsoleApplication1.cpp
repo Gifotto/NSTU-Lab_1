@@ -10,7 +10,7 @@
 using namespace std;
 
 int FuncRectangle(int a, int b) {
-	enum rec {P, S, D};
+	enum rec { P, S, D };
 	int PSD, vib;
 	cout << "Периметр — 0\nПлощадь — 1\nДиагональ — 2\n";
 	cin >> vib;
@@ -21,7 +21,11 @@ int FuncRectangle(int a, int b) {
 		PSD = a * b;
 	}
 	else if (vib == rec::D) {
-		PSD = sqrt(a*a+b*b);
+		PSD = sqrt(a * a + b * b);
+	}
+	else {
+		cout << "\n\nНеверный параметр\n";
+		return 0;
 	}
 	return PSD;
 }
