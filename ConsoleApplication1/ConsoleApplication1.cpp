@@ -4,7 +4,7 @@
 */
 
 #include <iostream>
-#include <Windows.h>
+//#include <Windows.h>
 #include <cmath>
 
 using namespace std;
@@ -32,16 +32,16 @@ int FuncRectangle(int a, int b) {
 
 int main()
 {
-	SetConsoleCP(1251);
-	SetConsoleOutputCP(1251);
+	//SetConsoleCP(1251);
+	//SetConsoleOutputCP(1251);
 	int a, b;
 	cout << "Введите стороны прямоугольника: ";
 	cin >> a >> b;
 	if (a <= 0 or b <= 0) {
-		cout << "Ошибка размера";
+		cout << "Ошибка размера\n";
 		return 0;
 	}
 
-	cout << FuncRectangle(a, b);
+	cout << FuncRectangle(a, b) <<"\n\n";
 }
 
