@@ -23,11 +23,6 @@ int FuncRectangle(int a, int b) {
 	else if (vib == rec::D) {
 		PSD = sqrt(a * a + b * b);
 	}
-	else {
-		cout << "\n\nНеверный параметр\n";
-		return 0;
-	}
-	return PSD;
 }
 
 int main()
