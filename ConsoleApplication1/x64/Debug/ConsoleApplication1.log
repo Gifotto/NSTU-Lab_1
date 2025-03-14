@@ -1,3 +1,4 @@
 ﻿  ConsoleApplication1.cpp
-C:\Users\user\Desktop\прога сем 2\Лаба1\ConsoleApplication1\ConsoleApplication1.cpp(24,13): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-  ConsoleApplication1.vcxproj -> C:\Users\user\Desktop\прога сем 2\Лаба1\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
+C:\Users\user\NSTU-Lab_1\ConsoleApplication1\ConsoleApplication1.cpp(24,13): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  LINK : не найден или не выполнена сборка C:\Users\user\NSTU-Lab_1\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe при последней инкрементной компоновке; выполняется полная компоновка
+  ConsoleApplication1.vcxproj -> C:\Users\user\NSTU-Lab_1\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe

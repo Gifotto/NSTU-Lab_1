@@ -1,1 +1,2 @@
 C:\Users\user\Desktop\прога сем 2\Лаба1\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
+C:\Users\user\NSTU-Lab_1\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
