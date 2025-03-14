@@ -37,6 +37,11 @@ int main()
 	int a, b;
 	cout << "Введите стороны прямоугольника: ";
 	cin >> a >> b;
+	if (a <= 0 or b <= 0) {
+		cout << "Ошибка размера";
+		return 0;
+	}
+
 	cout << FuncRectangle(a, b);
 }
 
